@@ -5,7 +5,7 @@
     flex-direction: row;
 }
 
- .gpt3__features-heading {
+.gpt3__features-heading {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -21,12 +21,10 @@
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
-    font-style: normal;
 }
 
 .gpt3__features-heading p {
     color: var(--color-subtext);
-    font-style: normal;
     font-size: 16px;
     line-height: 30px;
     font-weight: 500;
@@ -59,4 +57,4 @@
         font-size: 28px;
         line-height: 38px;
     }
-} 
+}
