@@ -75,6 +75,11 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.gpt3__header-content__input button:hover {
+   
+    background-color: #ff4920cc;
+    border: 2px solid #FF4820;
+}
 
 .gpt3__header-content__people {
     width: 100%;
