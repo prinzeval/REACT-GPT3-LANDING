@@ -15,6 +15,7 @@
 
 .gpt3__navbar-links_logo {
     margin-right: 2rem;
+    cursor: pointer;
 }
 
 .gpt3__navbar-links_logo img {
@@ -45,7 +46,15 @@
 
     margin: 0 1rem;
     cursor: pointer;
+    
 }
+.gpt3__navbar-links_container p:hover,
+.gpt3__navbar-sign p:hover,
+.gpt3__navbar-menu_container p:hover {
+    color: #f0f0f0; /* Change this to the color you prefer */
+    text-decoration: underline; /* Example effect, adjust as needed */
+}
+
 
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
@@ -61,6 +70,20 @@
     cursor: pointer;
     border-radius: 5px;
 }
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.gpt3__navbar-sign button:hover {
+    background-color: #fff; 
+    color: #FF4820;
+    animation: shake 0.5s; /* Adjust the duration as needed */
+}
+
 
 .gpt3__navbar-menu {
     margin-left: 1rem;
